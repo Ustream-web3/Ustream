@@ -1,9 +1,8 @@
-Hacktoberfest-2021
 # Ustream Frontend Repository
 
 **This is the frontend github repository for the client side
 for Ustream Web3 feel free to leave any suggestions/contributions if you can
-so sit back and enjoy the code.  Happy hacking 💙 !!**
+so sit back and enjoy the code.  Happy hacking 💚💜 !!**
 
 P.S. Star ⭐ if you had fun!! 😍
 
