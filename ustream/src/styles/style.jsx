@@ -24,7 +24,7 @@ export const theme = extendTheme({
                 borderRadius: "5px",
               },
             label: {
-              color: "#C4C4C4",
+              color: "#000",
               top: 0,
               left: 0,
               zIndex: 2,
