@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  margin: 4px;
+}
+nav {
+  padding: 15px 0;
+  display: flex;
+  background: rgb(251, 199, 212);
+  justify-content: space-around;
+}

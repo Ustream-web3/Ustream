@@ -1,39 +1,53 @@
 import { Box, Flex, Image, Input, Text } from "@chakra-ui/react";
-import { Spider, Bat, Spider2, Upload, Stream, Down, Ad } from "./assets";
+import {
+  Spider,
+  Bat,
+  Spider2,
+  Upload,
+  Stream,
+  Down,
+  Ad,
+} from "../components/assets";
 
-function App() {
-  const data = [
-    {
-      id: 1,
-      image: Spider,
-    },
-    {
-      id: 2,
-      image: Bat,
-    },
-    {
-      id: 3,
-      image: Spider2,
-    },
-  ];
+import "@fontsource/ibm-plex-sans/200.css";
+import "@fontsource/ibm-plex-sans/300.css";
+import "@fontsource/ibm-plex-sans/400.css";
+import "@fontsource/ibm-plex-sans/500.css";
 
-  const data1 = [
-    {
-      id: 1,
-      image: Upload,
-      text: "Upload your script or videos for voting and reviews",
-    },
-    {
-      id: 2,
-      image: Stream,
-      text: "Stand a chance to have your script selected by top movie producers",
-    },
-    {
-      id: 3,
-      image: Down,
-      text: "Have your skits featured in the Thursday Night Cinema",
-    },
-  ];
+const data = [
+  {
+    id: 1,
+    image: Spider,
+  },
+  {
+    id: 2,
+    image: Bat,
+  },
+  {
+    id: 3,
+    image: Spider2,
+  },
+];
+
+const data1 = [
+  {
+    id: 1,
+    image: Upload,
+    text: "Upload your script or videos for voting and reviews",
+  },
+  {
+    id: 2,
+    image: Stream,
+    text: "Stand a chance to have your script selected by top movie producers",
+  },
+  {
+    id: 3,
+    image: Down,
+    text: "Have your skits featured in the Thursday Night Cinema",
+  },
+];
+
+export default function Home() {
   return (
     <Box
       style={{
@@ -44,6 +58,7 @@ function App() {
     >
       <Box w="97%" mx="auto">
         <>
+          <br />
           <Box width="65%" mx="auto" textAlign="center">
             <Text
               as={"h1"}
@@ -133,5 +148,3 @@ function App() {
     </Box>
   );
 }
-
-export default App;
