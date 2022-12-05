@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }) {
       <ChakraProvider theme={theme}>
         <ColorModeScript />
         <Header />
-
         <Component {...pageProps} />
       </ChakraProvider>
     </div>

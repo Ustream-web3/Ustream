@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Input, Text } from "@chakra-ui/react";
+import { Box, Flex, Input, Text } from "@chakra-ui/react";
 import {
   Spider,
   Bat,
@@ -8,6 +8,7 @@ import {
   Down,
   Ad,
 } from "../components/assets";
+import Image from "next/image";
 
 import "@fontsource/ibm-plex-sans/200.css";
 import "@fontsource/ibm-plex-sans/300.css";
@@ -55,6 +56,7 @@ export default function Home() {
       }}
       minH="100vh"
       color="black"
+      m="0"
     >
       <Box w="97%" mx="auto">
         <>
